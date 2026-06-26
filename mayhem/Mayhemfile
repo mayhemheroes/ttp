@@ -1,0 +1,7 @@
+project: ttp
+target: fuzz-ttp
+
+cmds:
+  - cmd: /mayhem/fuzz_ttp
+    libfuzzer: true
+    timeout: 20
